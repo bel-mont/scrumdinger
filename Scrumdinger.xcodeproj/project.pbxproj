@@ -14,6 +14,8 @@
 		2A7E32DE28950A4C002EB1CC /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E32DD28950A4C002EB1CC /* ScrumdingerTests.swift */; };
 		2A7E32E828950A4C002EB1CC /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E32E728950A4C002EB1CC /* ScrumdingerUITests.swift */; };
 		2A7E32EA28950A4C002EB1CC /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7E32E928950A4C002EB1CC /* ScrumdingerUITestsLaunchTests.swift */; };
+		2A8BF033289641B900FE0DB2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BF032289641B900FE0DB2 /* CardView.swift */; };
+		2A8BF035289647CC00FE0DB2 /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BF034289647CC00FE0DB2 /* TrailingIconLabelStyle.swift */; };
 		2AC208DC289562A300233891 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC208DB289562A300233891 /* Theme.swift */; };
 		2AC208DE2895645A00233891 /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC208DD2895645A00233891 /* DailyScrum.swift */; };
 /* End PBXBuildFile section */
@@ -46,6 +48,8 @@
 		2A7E32E328950A4C002EB1CC /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A7E32E728950A4C002EB1CC /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		2A7E32E928950A4C002EB1CC /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2A8BF032289641B900FE0DB2 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		2A8BF034289647CC00FE0DB2 /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		2AC208DB289562A300233891 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		2AC208DD2895645A00233891 /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,6 +107,8 @@
 				2A7E32CE28950A47002EB1CC /* MeetingView.swift */,
 				2A7E32D028950A4B002EB1CC /* Assets.xcassets */,
 				2A7E32D228950A4B002EB1CC /* Preview Content */,
+				2A8BF032289641B900FE0DB2 /* CardView.swift */,
+				2A8BF034289647CC00FE0DB2 /* TrailingIconLabelStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -272,9 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AC208DE2895645A00233891 /* DailyScrum.swift in Sources */,
+				2A8BF035289647CC00FE0DB2 /* TrailingIconLabelStyle.swift in Sources */,
 				2AC208DC289562A300233891 /* Theme.swift in Sources */,
 				2A7E32CF28950A47002EB1CC /* MeetingView.swift in Sources */,
 				2A7E32CD28950A47002EB1CC /* ScrumdingerApp.swift in Sources */,
+				2A8BF033289641B900FE0DB2 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
